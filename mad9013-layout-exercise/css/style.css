@@ -46,6 +46,8 @@ p {
   margin: 0 auto;
 }
 
+
+
 /* -- Header -- */
 .banner {
   background: url(../img/main-banner.jpg);
@@ -56,6 +58,28 @@ p {
   font-size: 2rem;
   padding: 12rem 0;
 }
+
+
+/* -- main-nav -- */
+.main-nav{
+  background: #111;
+  width: 100%;
+  padding: 0;
+}
+.main-nav li{
+  float: left;
+  list-style: none;
+  text-align: center;
+  width: 25%;
+  
+}
+.main-nav a{
+  color: #fff;
+  padding: 4%;
+  display: block;
+  text-decoration: none;
+}
+
 
 .sub-banner {
   background: url(../img/banner-2.jpg);
